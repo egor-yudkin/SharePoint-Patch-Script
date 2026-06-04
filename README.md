@@ -1,17 +1,16 @@
 # SharePoint Patch Script
+This module is meant to install patches (Cummulative Updates) for SharePoint Server Subscription Edition.
 
-An updated version of Russ Maxwell's "5 hour" SharePoint Patch Script supporting SharePoint 2013, SharePoint 2016, and SharePoint 2019. Original created for SharePoint 2013 by Russ Maxwell, this script has been updated with a few new features:
+## Status
+This project is in early development - not ready for production use. Use it on your own risk.
 
-* Support for SharePoint 2019, SharePoint 2016, and SharePoint 2013 in the same script
-* Support for multiple patch files for both platforms
-* Support for pausing/stopping multiple SharePoint Search Service Applications
-* It's now a module!
-* Retrieve patch metadata from [SharePoint Updates](https://sharepointupdates.com)
-* Download patches from the Microsoft Download Center
-* Run the Configuration Wizard (`psconfig.exe`) with all of the appropriate parameters
+## Main Features
+* Support for SharePoint Server Subscription Edition
+* Support for pausing/stopping multiple SharePoint Search Service Applications and Services
 
 **Usage:**
 
-See the [wiki](https://github.com/Nauplius/SharePoint-Patch-Script/wiki).
+# Attributions
+This script is based on Trevor Seward's rework of Russ Maxwell's "5 hour" SharePoint Patch Script. Original created for SharePoint 2013, 2016 and 2019 by Trevor Seward, based on Russ Maxwell's 2013 script.
 
-Russ Maxwell's original script is available at [Why SharePoint 2013 Cumulative Update takes 5 hours to install?](https://blog.russmax.com/why-sharepoint-2013-cumulative-update-takes-5-hours-to-install/).
+Russ Maxwell's original script is available at Internet Archive [Why SharePoint 2013 Cumulative Update takes 5 hours to install?]([https://blog.russmax.com/why-sharepoint-2013-cumulative-update-takes-5-hours-to-install/](https://web.archive.org/web/20250108212137/https://blog.russmax.com/why-sharepoint-2013-cumulative-update-takes-5-hours-to-install/)).
